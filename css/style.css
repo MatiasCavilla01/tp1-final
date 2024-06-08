@@ -1,0 +1,19 @@
+header{
+    background-color: #202236;
+}
+
+.navbar{
+    display: flex;
+    justify-content: right;
+    margin-right: 16%;
+   
+
+}
+
+.navbar a{
+    text-decoration: none;
+    padding: 2%;
+    color: white;
+    font-size: 70%;
+    
+}
