@@ -1,4 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pacifico&display=swap');
+
+html {
+    scroll-behavior: smooth;
+} 
 
 :root{
     --dark-blue: #1f2136;
@@ -9,30 +15,60 @@ body{
 }
 .total{
     box-shadow: 0 0 100px rgba(0, 0, 0, 0.521);
-    margin: 2% 5% 2% 5%;
+    margin: 0% 5% 0% 5%;
     font-family: 'Poppins';
 }
 
 header{
     background-color: var(--dark-blue);
-    height: 7.5vh;
+    height: 6vh;
     margin: 2% 0% 0% 0%;
     box-shadow: 0 0 100px rgba(0, 0, 0, 0.521);
 }
 
-.navbar{
-    display: flex;
-    justify-content: right;
-    margin-right: 16%;
+nav{
+    display: flex;      
+    position: fixed;
+    top: 0;
+    width: 90%;
+    z-index: 1000;   
+    background-color: var(--dark-blue);
+}
 
+#Title {
+    font-weight: 700;
+    font-size: 2rem;
+    margin-right: 13%;
+    color: white;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    padding-left: 17%;
+}
+
+#Title span {
+    color: #fb4b50
 }
 
 .navbar a{
     text-decoration: none;
-    padding: 2%;
+    padding: 2.2% 1% 1% 1%;
     color: white;
     font-size: 81%;
-    
+    transition: transform 1.5s ease;
+    transition: background-color 1.5s ease;
+}
+.navbar i{
+    text-decoration: none;
+    padding: 2.2% 1% 1% 1%;
+    color: white;
+    font-size: 86%;
+    display: none;
+}
+
+.navbar a:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    background-color: #fb4b50;
 }
 
 .hero{
@@ -45,13 +81,13 @@ header{
 .firma {
     transform: rotate(-25deg);
     position: absolute;
-    font-size: 11vw;
-    font-family:'Satisfy';
+    font-size: 12.5vw;
+    font-family:'Caveat';
     font-weight: 800;
     color: #303247;
     margin: 0;
-    bottom: 20vw;
-    right: 6vw
+    bottom: 22vw;
+    right: 9vw
 }
 
 .contenedor{ 
@@ -70,7 +106,7 @@ header{
 .contenedor img{
     position: absolute;
     right:14% ;
-    bottom: 11%;
+    bottom: 13%;
     width: 37%;
     height: 73%;
 }
@@ -83,10 +119,19 @@ header{
     margin: 1%;
     padding: 1.3% 1%;
     color: white;
-    border: #fb4b50 solid 2px;
+    border: #fb4b50 solid 1.5px;
     border-radius: 50%;
     background-color:var(--dark-blue) ;
+    transition: transform 1.5s ease;
+    transition: background-color 1.5s ease;
     
+}
+
+.iconos-redes a:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+    background-color: #fb4b50;
+
 }
 
 .texto-hero h1{
@@ -95,15 +140,23 @@ header{
 
 .texto-hero p{
     color: #9ea0ad;
-    padding-bottom: 3%;
+    padding-bottom: 1.5%;;
 }
 
+
 .texto-hero button{
-    margin-top:2.5% ;
+    margin-top:6% ;
     border: 2px solid #fb4b50;
     border-radius: 30px;
     color: white;
+    transition: background-color 1.5s ease;
+    transition: transform 1.5s ease;
+}
 
+.texto-hero button:hover{
+    background-color: #fb4b50;
+    cursor: pointer;
+    transform: scale(1.13);
 }
 
 .academico{
@@ -117,32 +170,46 @@ header{
     background-color: #fb4b50;
     padding: 1.2% 3.6%;
 }
-
-.servicios{
-    margin: 0% 0% 0% 0%;
+.services{
     background-color: var(--dark-blue);
     box-shadow: 0 0 100px rgba(0, 0, 0, 0.521);
+}
+
+.skills{
+    background-color: var(--light-blue);
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.521);
+}
+.about-contact{
+    background-color: var(--dark-blue);
+    box-shadow: 0 0 100px rgba(0, 0, 0, 0.521);
+}
+.contact{
+    background-color: var(--dark-blue);
+}
+.cont{
+    margin: 0% 0% 0% 0%;
+    
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.servicios h5{
+.cont h5{
     text-align: center;
     color: #fb4b50;
     padding-top: 8%;
     font-size: 0.9rem;
 }
 
-.servi-p{
+.cont p{
     margin-top: 2.5%;
     text-align: center;
-    color: white;
+    color:#9ea0ad ;
     
 }
 
-.servi-h3{
+.cont h3{
     margin-top: 2%;
     text-align: center;
     color: white;
@@ -155,7 +222,6 @@ header{
     gap: 2.5%;
     margin: 2% 15% 11% 15%;
     color: white;
-    
 }
 
 hr{
@@ -172,11 +238,25 @@ hr{
     background-color: var(--light-blue);
     border-radius: 2%;
     padding: 13%;
+    transition: background-color 1.5s ease;
+    transition: transform 0.5s ;
+}
+
+
+.box:hover, .box:hover i, .box:hover p{
+    transform: scale(1.1);
+    background-color: #fb4b50;
+    color: white;
+
 }
 .box i{
     color: #fb4b50;
     font-size: 25px;
+    transition: background-color 1.5s ease;
+    transition: transform 1s ;
+    transition: color  0.5s ease;
 }
+
 .box h3{
     margin-top: 11%;
     font-size: 88%;
@@ -188,3 +268,106 @@ hr{
     color: #9ea0ad;
 }
 
+.contenedor-skills{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* cuatro columnas */
+    grid-template-rows: repeat(2, auto); /* Dos filas */;
+    gap: 5%;
+    margin: 2% 15% 11% 15%;
+    text-align: center;
+}
+
+.cajas{
+    border-radius: 10px;
+    padding: 15px;
+    transition: transform 1s ease;
+}
+
+.cajas:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+}
+.cont .about{
+    box-shadow: none;
+}
+.about a{
+    text-decoration: none;
+    color:#fb4b50
+}
+
+.about p{
+    margin-top: 2.5%;
+    margin-bottom: 0%;
+} 
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact h3{
+    margin-top: 8%;
+    text-align: center;
+    color: white;
+    padding-bottom: 2.5%;
+}
+
+.conta p{
+    margin-left:  46%;
+    text-align: left;
+    color: #9ea0ad;
+    padding-bottom: 1%;
+    font-size: 78%;
+    margin-top: 1%;
+    
+}
+.linkcontac{
+    color: #fb4b50;
+    transition: transform 1s ease;
+}
+
+.linkcontac:hover a{
+    transform: scale(1.2);
+}
+
+.grilla-contact{
+    display: flex;
+    justify-content: column;
+    flex-wrap: wrap;
+    margin-left: 42%;
+    width: 30%;
+    padding-top: 2%;
+    padding-right: 2%;
+
+}
+
+.grilla-item {
+    padding-bottom: 2%;
+    width: 30%;
+    padding-right: 7%;
+    text-align: left;
+}
+
+.grilla-item h5{
+    margin-left: 46%;
+
+    color: #fb4b50;
+}
+
+.about img{
+    height: 44%;
+    width: 26%;
+    position: absolute;
+    right: 54%;
+    top: 329%;
+}
+
+.col2{
+    display: flex;
+    justify-content:colums;
+    align-items: end;
+    margin-left: 42%;
+    padding:2% 0;
+    width: 30%;
+    padding-right: 2%;
+}

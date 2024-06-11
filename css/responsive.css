@@ -1,0 +1,55 @@
+
+/*1920 X 1080 Monitores 4k y superiores*/
+@media(max-width:1920px){
+    .navbar a{
+        margin-left: 4%;
+        font-size: 116%;
+    }
+    .hero{
+        font-size: 135%;
+    }
+    .services{
+        font-size: 136%;
+    }
+    .skills{
+        font-size: 137%;
+    }
+    .contenedor-servicios{
+    gap: 4%;
+    font-size: 152%;}
+    .contenedor-skills{
+    gap: 6%;
+    }
+    .contenedor-skills img{
+        width: 110px;
+        height: 110px;
+    }
+    .about-contact{
+        font-size: 143%;
+    }
+    .about img{
+        top:349%;
+    }
+}
+/*1440x900 Monitores y laaptops
+agarre una Macbook Pro de referencia*/
+@media(max-wiBth:1440px){
+
+}
+/**/
+@media(max-width:1280px){}
+
+/**/
+@media(max-width:1024px){}
+
+/**/
+@media(max-width:768px){
+}
+/**/
+@media(max-width:480px){
+    
+}
+/**/
+@media(max-width:320px){
+    
+}
