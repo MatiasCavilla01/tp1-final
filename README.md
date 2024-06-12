@@ -23,7 +23,7 @@ animaciones que estan definidas con "1s ease".
 
   En cuanto al responsive cree el resposive @media("max-width:") para todas las medidas vistas en clase y agregue resoluciones
 especificas que eran medidas de las mas comunes en el dia a dia. Ejemplos:(1920x1080, 1440x900, 1280x800, 1024x768, 1024x679, 
-768x1024, 480x854, 1366,768). Para todas estas medidas especificas utilize esta manera 
+768x1024, 480x854, 1366,768). Para todas estas medidas especificas utilize la APP recomendada por el profe "Resposively" y esta manera de codear en css:
 "@media(width:medida) and (height: medida)",todas estas medidas especificas las busque y analize , 
 hay dos resoluciones con 1024 , una es la mas estandar y la otra la de miPC. Tambien tuve el problema que abri el proyecto en
 otro navegador y las imagenes se veian corridas ya que utilize "position:absolute" y es un problema cada height distinto.
