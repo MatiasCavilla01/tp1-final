@@ -28,28 +28,492 @@
         font-size: 143%;
     }
     .about img{
-        top:349%;
+        top: 304%;
+        height: 51%;
+    }
+    .image-container {
+        flex: 1 1 600px;
+        position: relative;
+        margin-left: 46%;
+        margin-top: -62%; 
+        width: 100%;
+        max-width: 1000px;
+        height: auto;
+    }
+    .imgmia{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 640px;
+        height: 750px;
+        border-radius: 10px;
     }
 }
-/*1440x900 Monitores y laaptops
+@media(width:1920px)and (height: 1080px){
+    .navbar a{
+        margin-left: 4%;
+        font-size: 116%;
+    }
+    .hero{
+        font-size: 135%;
+    }
+    .services{
+        font-size: 136%;
+    }
+    .skills{
+        font-size: 137%;
+    }
+    .contenedor-servicios{
+    gap: 4%;
+    font-size: 152%;}
+    .contenedor-skills{
+    gap: 6%;
+    }
+    .contenedor-skills img{
+        width: 110px;
+        height: 110px;
+    }
+    .about-contact{
+        font-size: 143%;
+    }
+    .about img{
+        top: 304%;
+        height: 51%;
+    }
+    .image-container {
+        flex: 1 1 600px;
+        position: relative;
+        margin-left: 46%;
+        margin-top: -62%; 
+        width: 100%;
+        max-width: 1000px;
+        height: auto;
+    }
+    .imgmia{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 640px;
+        height: 750px;
+        border-radius: 10px;
+    }
+}
+/*1440x900 Monitores y laptops
 agarre una Macbook Pro de referencia*/
-@media(max-wiBth:1440px){
-
+@media(max-width:1440px){
+    .navbar a{
+        margin-left: 2%;
+        padding-top: 2.4%;
+        font-size: 98%;
+        padding-right: 0%;
+    }
+    #Title{
+        padding-top: 0.8%;
+    }
+    .about img{
+        top:249%;
+        height: 51%;
+        width: 30%;
+    }
+    .services{
+        font-size: 109%;
+    }
+    .hero{
+        height: 69vh;
+    }
+    .image-container {
+        flex: 1 1 600px;
+        position: relative;
+        margin-left: 46%;
+        margin-top: -55%; 
+        width: 100%;
+        max-width: 435px;
+        height: auto;
+    }
+    .imgmia{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 415px;
+        height: 485px;
+        border-radius: 10px;
+    }
+    .firma {
+        bottom: 28vw;
+    }
 }
-/**/
-@media(max-width:1280px){}
-
-/**/
-@media(max-width:1024px){}
-
-/**/
-@media(max-width:768px){
+@media(width:1440px) and (height: 900px){
+    .navbar a{
+        margin-left: 2%;
+        padding-top: 2.4%;
+        font-size: 98%;
+        padding-right: 0%;
+    }
+    #Title{
+        padding-top: 0.8%;
+    }
+    .about img{
+        top:249%;
+        height: 51%;
+        width: 30%;
+    }
+    .services{
+        font-size: 109%;
+    }
+    .hero{
+        height: 69vh;
+    }
+    .image-container {
+        flex: 1 1 600px;
+        position: relative;
+        margin-left: 46%;
+        margin-top: -55%; 
+        width: 100%;
+        max-width: 435px;
+        height: auto;
+    }
+    .imgmia{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 415px;
+        height: 485px;
+        border-radius: 10px;
+    }
+    .about img{
+        top: 293%;
+        height: 51%;
+        width: 30%;
+    }
+    .firma {
+        bottom: 28vw;
+    }
 }
-/**/
+@media(width:1366px) and (height: 768px){
+    .image-container {
+        flex: 1 1 600px;
+        position: relative;
+        margin-left: 46%;
+        margin-top: -72%; 
+        width: 100%;
+        max-width: 435px;
+        height: auto;
+    }
+    .imgmia{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 415px;
+        height: 485px;
+        border-radius: 10px;
+    }
+    .firma {
+        bottom: 22vw;
+        transform: rotate(-14deg);
+    }
+    .about img{
+        top: 330%;
+        height: 51%;
+        width: 30%;
+    }
+}
+/*1280x800 Tablets modo paisaje y laptops pequeñas
+agarre un Monitor 12 Tft Lcd Rca Vga Hdmi de referencia*/
+@media(max-width:1280px){
+    .total{
+        font-size: 92%;
+    }
+    .about img{
+        top:267%;
+    }
+    .contenedor-skills img{
+        width: 80px;
+        height: 80px;
+    }
+    .hero{
+        height: 72vh;
+    }
+    .firma {
+        bottom: 28vw;
+    }
+    .image-container {
+        flex: 1 1 600px;
+        position: relative;
+        margin-left: 47%;
+        margin-top: -58%; 
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+    
+    .imgmia{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 345px;
+        height: 460px;
+        border-radius: 10px;
+    }
+}
+@media(width:1280px)and (height: 800px){
+    .total{
+        font-size: 92%;
+    }
+    .about img{
+        top:267%;
+    }
+    .contenedor-skills img{
+        width: 80px;
+        height: 80px;
+    }
+    .hero{
+        height: 72vh;
+    }
+    .firma {
+        bottom: 28vw;
+    }
+    .image-container {
+        flex: 1 1 600px;
+        position: relative;
+        margin-left: 47%;
+        margin-top: -58%; 
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+    
+    .imgmia{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 345px;
+        height: 460px;
+        border-radius: 10px;
+    }
+}
+/*1024x768 Monitores y tablests grandes o pantallas horizontales
+use mi propio monitor de referencia*/
+@media (max-width: 1024px){
+    .total{
+        font-size: 72%;
+    }
+    .about img{
+        top:230%;
+        height: 44%;
+        width: 26%;
+    }
+    .contenedor-skills img{
+        width: 62px;
+        height: 62px;
+    }
+    .hero{
+        height: 72vh;
+    }
+    .firma {
+        bottom: 30vw;
+    }
+    .image-container {
+        flex: 1 1 600px;
+        position: relative;
+        margin-left: 47%;
+        margin-top: -58%; 
+        width: 100%;
+        max-width: 700px;
+        height: auto;
+    }
+    .imgmia{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 345px;
+        height: 460px;
+        border-radius: 10px;
+    }
+}
+
+@media (width: 1024px) and (height: 768px){
+    .total{
+        font-size: 72%;
+    }
+    .about img{
+        top:230%;
+        height: 44%;
+        width: 26%;
+    }
+    .contenedor-skills img{
+        width: 62px;
+        height: 62px;
+    }
+    .hero{
+        height: 72vh;
+    }
+    .firma {
+        bottom: 30vw;
+    }
+    .image-container {
+        flex: 1 1 600px;
+        position: relative;
+        margin-left: 47%;
+        margin-top: -58%; 
+        width: 100%;
+        max-width: 700px;
+        height: auto;
+    }
+    .imgmia{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 345px;
+        height: 460px;
+        border-radius: 10px;
+    }
+}
+
+/*Resolucion exacta de mi Pantalla*/
+@media (width: 1024px) and (height: 679px){
+    .about img{
+        top:292%;
+        height: 47%;
+        width: 26%;
+    }
+}
+/*768x1024 Monitores chicos,tablests ,Ipad
+agarre como referencia Ipad*/
+@media(max-width:768px)  and (height: 1024px){
+    .total{
+        font-size: 58%;
+    }
+    header{
+        height: 4vh;
+    }
+    .hero{
+        height: 50vh;
+    }
+    .image-container {
+        flex: 1 1 600px;
+        position: relative;
+        margin-left: 48%;
+        margin-top: -68%; 
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+    .imgmia{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 278px;
+        height: 405px;
+        border-radius: 10px;
+    }
+    .texto-hero{
+        margin-top: 15%;
+        padding: 15% 0;
+        color: white;
+    }
+    .firma {
+        bottom: 79vw;
+    }
+    .about img{
+        top:151%;
+        height: 22%;
+        width: 19%;
+        right: 57%;
+    }
+}
 @media(max-width:480px){
-    
+    .total{
+        font-size: 70%;
+    }
+    .navbar{
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar a{
+        display: none;
+    }
+    #Title{
+        display: none;
+    }
+    .navbar i{
+        display: flex;
+        font-size: 230%;
+    }
+    .hero{
+        height: 60vh;
+    }
+    .imgmia{
+        display: none;
+    }
+    .firma {
+        bottom: 79vw;
+
+    }
+    .contenedor-skills img{
+        width: 20px;
+        height: 20px;
+    }
+    .iconos-redes a{
+        padding: 2%;
+    }
+    .contenedor-skills{
+        gap:0%
+    }
+    .box i{
+        font-size: 18px;
+    }
+    .about img{
+        top:169%;
+        height: 22%;
+        width: 19%;
+        right: 57%;
+    }
 }
-/**/
+
+/*480x854 celulares*/
+@media(width:480px) and (height: 854px){
+    .texto-hero{
+        margin-top: 29%;
+        font-size: 137%;
+    }
+    .firma {
+        font-size: 80%;
+    }
+    .about img{
+        top:166%;
+        height: 22%;
+        width: 19%;
+        right: 57%;
+    }
+}
+/*S9 320x658*/
 @media(max-width:320px){
-    
+    .total{
+        font-size: 46%;
+    }
+    .texto-hero{
+        margin-top: 29%;
+        font-size: 144%;
+    }
+    .contenedor-skills img{
+        width: 17px;
+        height: 17px;
+    }
+    .box i{
+        font-size: 12px;
+    }
+    .firma {
+        font-size: 645%;
+        bottom: 111vw;
+    }
+    .iconos-redes a{
+        padding: 4%;
+    }
+    .about img{
+        top:162%;
+        height: 19%;
+        width: 17%;
+        right: 57%;
+    }
 }
+    
