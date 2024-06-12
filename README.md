@@ -5,7 +5,7 @@ link de del Portfolio en el que se baso el proyecto.
 
   El proyecto tiene la carpeta "Css" donde esta su "style.css" , su "Normalize.css" y su "Resposive.css", otra carpeta llamada "PDF"
 donde contiene el Pdf de "Mi Academico", otra carpeta llamada "Img" que contiene todas las imagenes de proyecto y por ultimo 
-contiene el index.html
+contiene el archivo index.html
 
   Los iconos son sacados de bootstrap y de Flaticon.
 
